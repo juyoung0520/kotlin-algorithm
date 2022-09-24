@@ -18,3 +18,6 @@
 
 ### 7. N과 M(7)
 <img width="1142" alt="image" src="https://user-images.githubusercontent.com/54929665/192090669-22912187-b1b6-457b-80de-df5d226552c5.png">
+
+### 9. N과 M(8)
+<img width="1142" alt="image" src="https://user-images.githubusercontent.com/54929665/192097172-084ad007-8bb0-43e3-80fb-57b7b65920e4.png">
