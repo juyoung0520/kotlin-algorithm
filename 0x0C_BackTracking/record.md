@@ -15,3 +15,6 @@
 
 ### 6. N과 M(6)
 <img width="1144" alt="image" src="https://user-images.githubusercontent.com/54929665/192090238-31720c4a-34ae-4011-8bd2-e3242d163698.png">
+
+### 7. N과 M(7)
+<img width="1142" alt="image" src="https://user-images.githubusercontent.com/54929665/192090669-22912187-b1b6-457b-80de-df5d226552c5.png">
