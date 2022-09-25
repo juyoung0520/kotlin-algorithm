@@ -19,5 +19,19 @@
 ### 7. N과 M(7)
 <img width="1142" alt="image" src="https://user-images.githubusercontent.com/54929665/192090669-22912187-b1b6-457b-80de-df5d226552c5.png">
 
-### 9. N과 M(8)
-<img width="1142" alt="image" src="https://user-images.githubusercontent.com/54929665/192097172-084ad007-8bb0-43e3-80fb-57b7b65920e4.png">
+### 9. N과 M(9)
+before 적용 후가 확실히 빨라졌다.
+<img width="1141" alt="image" src="https://user-images.githubusercontent.com/54929665/192135339-3ee977b3-6f90-4cae-a382-8c446404c2c1.png">
+
+### 10. N과 M(10)
+이건 이상하게 before 적용 전이 더 빨랐다.
+<img width="1144" alt="image" src="https://user-images.githubusercontent.com/54929665/192135209-d2b002bc-7c1c-4ea0-adf5-bad9290cdcfe.png">
+
+### 11. N과 M(11)
+두번째가 before 적용 후 이고 엄청 빨라졌다.
+마지막이 before 말고 set으로 중복 제거 했을 때의 결과다.
+<img width="1144" alt="image" src="https://user-images.githubusercontent.com/54929665/192135528-429c1e93-5106-42fb-a589-808f0d7b0224.png">
+
+### 12. N과 M(12)
+before 적용해보고 set으로 중복 제거했을 때의 결과다. 큰 차이는 안났다.
+<img width="1141" alt="image" src="https://user-images.githubusercontent.com/54929665/192136144-07a803d6-6d66-49fc-9915-e74126d3d3db.png">
