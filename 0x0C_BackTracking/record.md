@@ -42,3 +42,7 @@ before 적용해보고 set으로 중복 제거했을 때의 결과다. 큰 차�
 ### 15. 로또
 <img width="1143" alt="image" src="https://user-images.githubusercontent.com/54929665/193400212-a6991ecb-8d67-42f0-ba38-e7786a5d0a24.png">
 
+### 16. 암호 만들기
+set 사용 전이 더 시간복잡도가 낮게 나옴
+<img width="1141" alt="image" src="https://user-images.githubusercontent.com/54929665/193402184-4f6a7458-b8af-48d5-904d-5ebd95657f6c.png">
+
