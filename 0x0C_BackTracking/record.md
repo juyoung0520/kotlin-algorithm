@@ -35,3 +35,10 @@ before 적용 후가 확실히 빨라졌다.
 ### 12. N과 M(12)
 before 적용해보고 set으로 중복 제거했을 때의 결과다. 큰 차이는 안났다.
 <img width="1141" alt="image" src="https://user-images.githubusercontent.com/54929665/192136144-07a803d6-6d66-49fc-9915-e74126d3d3db.png">
+
+### 14. 부분수열의 합
+<img width="1143" alt="image" src="https://user-images.githubusercontent.com/54929665/193399418-9d5222af-dcad-4992-801c-e98eb0f65310.png">
+
+### 15. 로또
+<img width="1143" alt="image" src="https://user-images.githubusercontent.com/54929665/193400212-a6991ecb-8d67-42f0-ba38-e7786a5d0a24.png">
+
