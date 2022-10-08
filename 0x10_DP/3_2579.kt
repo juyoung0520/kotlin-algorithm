@@ -14,8 +14,7 @@ fun main() {
     }
 
     for (i in 3..n) {
-        val prev = if (dp[i - 2] > (dp[i - 3] + stairs[i - 2])) dp[i - 2] else dp[i - 3] + stairs[i - 2]
-        dp[i] = stairs[i - 1] + prev
+        dp[i] = stairs[i - 1] + minOf(dp[i - 2], dp[i - 3] + stairs[i - 2])
     }
 
     println(dp[n])
