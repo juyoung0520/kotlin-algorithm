@@ -9,3 +9,6 @@
 
 ### 5. ATM
 ![image](https://user-images.githubusercontent.com/54929665/197193683-b300c785-3cbc-411f-8153-07e3935cb121.png)
+
+### 6. 공주님의 정원
+<img width="1141" alt="image" src="https://user-images.githubusercontent.com/54929665/197369154-aaa2078e-2860-4b29-9abd-9280e17bbcbd.png">
