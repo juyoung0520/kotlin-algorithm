@@ -10,10 +10,11 @@ fun main() {
     val n = br.readLine().toInt()
     val st = StringTokenizer(br.readLine())
     val arr = IntArray(n) {
-        st.nextToken().toInt()
+        val num = st.nextToken().toInt()
+        num
     }
-
-    val set = arr.toSet().sorted()
+    
+    val set = arr.sorted().distinct()
 
     val sb = StringBuilder()
     arr.forEach {
