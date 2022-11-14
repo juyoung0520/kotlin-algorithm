@@ -15,22 +15,20 @@ fun main() {
 
     var start = 1L
     var end = lan.maxOrNull() ?: -1L
-    var mid = 0L
-    var result = 0L
+    var mid: Long
 
     while (start <= end) {
         mid = (start + end) / 2
         val count = cutLan(lan, mid)
 
         if (count >= k) {
-            result = mid
             start = mid + 1
         } else {
             end = mid - 1
         }
     }
 
-    println(result)
+    println(start - 1)
 }
 
 private fun cutLan(lan: LongArray, mid: Long): Long {
