@@ -25,3 +25,12 @@ https://github.com/audxo112/kotlin-algorithm/issues/11
 - 직접 이분 탐색
 - binarySearch()
 <img width="1142" alt="스크린샷 2022-11-13 오전 2 15 56" src="https://user-images.githubusercontent.com/54929665/201486437-bc8f0377-3f6d-488a-a4b2-f2aa79597066.png">
+
+## 7. 1822 차집합
+위에서 부터 
+
+1-binarySearch + sort
+
+2-binarySearch + PriorityQueue 
+
+4-Set + PriorityQueue
