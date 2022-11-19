@@ -7,6 +7,8 @@ import java.util.StringTokenizer
 /*
     정렬된 중복제거 된 리스트, 이분탐색으로 인덱스 구하려고 만듬
     sorted().distinct()는 시간 초과
+    upperBound, lowerBound 시간 초과
+    map 사용 시간 초과 (key: 값, value: 인덱스)
  */
 
 fun main() {

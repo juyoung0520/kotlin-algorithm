@@ -37,3 +37,7 @@ https://github.com/audxo112/kotlin-algorithm/issues/11
 
 ## 9. 2805 나무자르기
 ![image](https://user-images.githubusercontent.com/54929665/202659399-e086e683-d869-419b-9716-ee87a068c48e.png)
+
+## 10. 18869 멀티버스
+같은 코드인데 시간이 줄었다??
+<img width="1143" alt="image" src="https://user-images.githubusercontent.com/54929665/202837886-7f0deaab-eb7f-4171-9f4a-dceead18adf2.png">
