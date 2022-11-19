@@ -34,3 +34,6 @@ https://github.com/audxo112/kotlin-algorithm/issues/11
 2-binarySearch + PriorityQueue 
 
 4-Set + PriorityQueue
+
+## 9. 2805 나무자르기
+![image](https://user-images.githubusercontent.com/54929665/202659399-e086e683-d869-419b-9716-ee87a068c48e.png)
