@@ -24,13 +24,15 @@ fun main() {
         }
     }
 
+    // 각 원소가 몇 번째로 큰 지 구하기 -> 정렬된 리스트에서의 index
     val indices = Array(m) { idx ->
         val list = inputs[idx].toSortedSet().toList()
         IntArray(n) {
-            list.binarySearch(inputs[idx][it])
+            list.binarySearch(inputs[idx][it]) // 원래 값 넣어준다
         }
     }
 
+    // index 구성이 같다면 count++
     var count = 0
     for (i in 0 until m) {
         for (j in i + 1 until m) {
