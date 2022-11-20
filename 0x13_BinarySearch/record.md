@@ -35,6 +35,8 @@ https://github.com/audxo112/kotlin-algorithm/issues/11
 
 4-Set + PriorityQueue
 
+<img width="1143" alt="image" src="https://user-images.githubusercontent.com/54929665/202880057-15fe94de-bbd7-4ee4-98da-393cfa2748bb.png">
+
 ## 9. 2805 나무자르기
 ![image](https://user-images.githubusercontent.com/54929665/202659399-e086e683-d869-419b-9716-ee87a068c48e.png)
 
