@@ -49,5 +49,25 @@ fun main() {
         }
     }
 
+//    var end = 0
+//    var sum = 0
+//    for (i in 0 .. max) {
+//        while (end <= max && sum < k) {
+//            sum += numberOfLine[end]
+//            end++
+//        }
+//
+//        if (sum == k) {
+//            println("$i $end")
+//            return
+//        }
+//        // sum < k 여서 마지막 원소(선이 없으므로 항상 0) 더함
+//        if (end > max) {
+//            break
+//        }
+//
+//        sum -= numberOfLine[i]
+//    }
+
     println("0 0")
 }
