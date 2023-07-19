@@ -14,7 +14,8 @@ private val explodeQue = LinkedList<Bomb>()
 private const val BOMB = 'O'
 private const val NOTHING = '.'
 
-// 91프로에서 틀
+// 91프로에서 틀 - 다 터진 뒤, 설치할 때 조건이 틀림, 터지고 바로 설치하게 됨
+// https://velog.io/@yanghl98/%EB%B0%B1%EC%A4%80-16918-%EB%B4%84%EB%B2%84%EB%A7%A8-JAVA%EC%9E%90%EB%B0%94
 fun main() {
     val br = BufferedReader(InputStreamReader(System.`in`))
     val st = StringTokenizer(br.readLine())
@@ -37,7 +38,7 @@ fun main() {
         val peek = que.peek()
         if (time % 2 == 0) {
             // 1초 뒤에 터질 폭탄 구하기(이전에 파괴되지 않고 남은 폭탄들)
-            while (que.peek() != null && que.peek().time + 3 == time + 1) {
+            while (peek != null && peek.time + 3 == time + 1) {
                 val bomb = que.poll()
                 if (board[bomb.x][bomb.y] == NOTHING) continue
                 explodeQue.add(bomb)
