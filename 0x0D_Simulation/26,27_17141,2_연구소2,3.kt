@@ -43,9 +43,9 @@ private fun combination(idx: Int, start: Int) {
         val tmp = Array(arr.size) { i ->
             IntArray(arr.size) { j ->
                 if (arr[i][j] == 1) {
-                    -2
+                    -2// 벽인 경우
                 } else {
-                    -1
+                    -1 // 방문 안한 빈칸
                 }
             }
         }
@@ -72,6 +72,8 @@ private fun combination(idx: Int, start: Int) {
         var time = 0
         for (i in tmp.indices) {
             for (j in tmp.indices) {
+                // 연구소 3 일 때 조건 추가
+                // if (arr[i][j] == 2) continue
                 if (tmp[i][j] == -1) return
                 if (tmp[i][j] > time) {
                     time = tmp[i][j]
