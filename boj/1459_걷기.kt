@@ -1,4 +1,4 @@
-package `kotlin-algorithm`
+package `kotlin-algorithm`.boj
 
 import java.io.BufferedReader
 import java.io.InputStreamReader
