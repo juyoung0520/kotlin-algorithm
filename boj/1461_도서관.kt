@@ -3,6 +3,7 @@ package `kotlin-algorithm`.boj
 import java.io.BufferedReader
 import java.io.InputStreamReader
 import java.util.*
+import kotlin.math.abs
 
 fun main() {
     val br = BufferedReader(InputStreamReader(System.`in`))
@@ -10,40 +11,35 @@ fun main() {
 
     val n = st.nextToken().toInt()
     val m = st.nextToken().toInt()
-    val pos = mutableListOf<Int>()
-    val neg = mutableListOf<Int>()
 
     st = StringTokenizer(br.readLine())
-    repeat(n) {
-        val num = st.nextToken().toInt()
-        if (num < 0) {
-            neg.add(num)
-        } else {
-            pos.add(num)
+    val positions = IntArray(n) {
+        st.nextToken().toInt()
+    }
+
+    positions.sort()
+
+    var pivot = n
+    for (i in positions.indices) {
+        if (positions[i] > 0) {
+            pivot = i
+            break
         }
     }
 
-    neg.sort()
-    pos.sortDescending()
-
-    var max = if (neg.isNotEmpty()) -neg[0] else 0
     var sum = 0
-    for (i in neg.indices) {
-        val abs = -neg[i]
-        if (i % m == 0) {
-            sum += abs * 2
-        }
+    var i = 0
+    while (i < pivot) {
+        sum += -positions[i] * 2
+        i += m
     }
 
-    for (i in pos.indices) {
-        if (i % m == 0) {
-            sum += pos[i] * 2
-        }
+    i = n - 1
+    while (i >= pivot) {
+        sum += positions[i] * 2
+        i -= m
     }
 
-    if (pos.isNotEmpty()) {
-        max = max.coerceAtLeast(pos[0])
-    }
-
+    val max = abs(positions[0]).coerceAtLeast(abs(positions[n - 1]))
     println(sum - max)
 }
